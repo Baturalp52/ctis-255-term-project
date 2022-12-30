@@ -1,0 +1,30 @@
+@import url("variables.css");
+@import url("containers.css");
+@import url("elements.css");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: all 0.7s;
+}
+
+.blank {
+  opacity: 0;
+}
+
+.filled {
+  background-color: var(--box-color);
+  color: rgba(0, 0, 0, 0);
+}
+
+.active {
+  color: white;
+  background-color: var(--active-color);
+  font-weight: 900;
+}
+.hinted {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
